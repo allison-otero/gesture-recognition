@@ -33,11 +33,17 @@ arduino/
     Week-4-AI-Gesture_Model.ino
     model.h
     normalizer.h
+notebooks/
+  feature_extraction.ipynb
 data/
   shake_data.txt
   punch_data.txt
   rest_data.txt
 ```
+
+## Notebook Workflow
+
+The notebook in `notebooks/` documents the feature extraction and model-development workflow for the IMU gesture dataset. It connects the collected Arduino sensor data to the embedded classifier files used for deployment.
 
 ## Hardware and Tools
 
@@ -49,4 +55,4 @@ data/
 
 ## Notes
 
-The Jupyter notebook training workflow can be added once the final notebook file is included in the repository.
+This repository is intended as a project portfolio artifact and early embedded machine learning prototype.
